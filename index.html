@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+    rel="stylesheet"
+    data-purpose="Layout StyleSheet"
+    title="Web Awesome"
+    href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d"
+  >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<style>
+    *{
+        font-family: 'Asap', sans-serif;
+    }
+</style>
+<body class="bg-fixed bg-no-repeat bg-cover" style="background-image: url('https://i.pinimg.com/originals/0c/96/7c/0c967c4af27aa805391e3be495936acd.png');">      
+  <div class="flex justify-center items-center text-white fixed bottom-2.5 w-full">
+    <nav class="flex justify-between items-center w-[95%] h-[50px] rounded-xl px-5 bg-[#121212bf] bg-black/40 backdrop-blur">
+        <div class="font-semibold text-lg">
+            07:00 am
+        </div>
+        <ul class="flex justify-center items-center gap-1">
+            <li class="flex items-center h-full">
+                <button  data-tooltip="" class=" relative size-[40px] rounded-md hover:bg-gray-400/40">
+                    <i class="fa-solid fa-house text-xl"></i>
+                </button>
+            </li>
+            <li>
+                <button class="flex justify-center items-center size-[40px] rounded-md hover:bg-gray-400/40">
+                    <i class="fa-regular fa-circle-play text-xl"></i>
+                </button>
+            </li>
+            <li>
+              <button  class="flex justify-center items-center size-[40px] rounded-md hover:bg-gray-400/40"> 
+                  <i class="fa-solid fa-volume-high text-xl"></i>
+              </button>
+          </li>
+            <li>
+                <button  class="flex justify-center items-center size-[40px] rounded-md hover:bg-gray-400/40"> 
+                  <i class="fa-regular fa-alarm-clock text-xl"></i>
+                </button>
+            </li>
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-solid fa-sliders text-xl"></i>
+                </button>
+            </li>
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-solid fa-image text-xl"></i>
+                </button>
+            </li>
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-solid fa-list-check text-xl"></i>
+                </button>
+            </li>
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-regular fa-calendar-days text-xl"></i>
+                </button>
+            </li>
+        </ul>
+        <ul class="flex justify-center items-center gap-1">
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-solid fa-bell text-xl"></i>
+                </button>
+
+                <div class=" hidden text-black font-medium px-2 py-1">
+                    thông báo
+                </div>
+            </li>
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-solid fa-user text-xl"></i>
+                </button>
+
+                <div class=" hidden text-black font-medium px-2 py-1">
+                    tài khoản
+                </div>
+            </li>
+            <li class="flex items-center h-full">
+                <button  class=" relative size-[40px] rounded-md hover:bg-gray-400/40"> 
+                    <i class="fa-solid fa-gear text-xl"></i>
+                </button>
+
+                <div class=" hidden text-black font-medium px-2 py-1">
+                    cài đặt
+                </div>
+            </li>
+        </ul>
+    </nav>
+  </div>
+
+
+    <main class="flex flex-wrap hidden">
+        <!-- cài đặt -->
+            <div class="mt-36 ml-36 w-[300px] h-[500px] bg-[#121212bf] text-white px-2 py-5  rounded-lg">
+                <span class="flex justify-between items-center ml-[13px] mr-[8px]">
+                    <h1 class="text-2xl font-bold text-center ">Cài đặt</h1>
+        
+                    <button class="w-9 h-9 rounded-full hover:bg-gray-400/60 ">
+                        X
+                    </button>
+                </span>
+                <nav>
+                    <ul>
+                        <li>
+                            <button class="w-full text-left text-lg h-[40px] hover:bg-gray-400/60 hover:rounded-md">
+                                <i class="fa-solid fa-right-to-bracket w-[50px] text-center"></i>
+                                Đăng xuất
+                            </button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left text-lg h-[40px] hover:bg-gray-400/60 hover:rounded-md">
+                                <i class="fa-solid fa-file-signature w-[50px] text-center"></i>
+                                Feeaback
+                            </button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left text-lg h-[40px] hover:bg-gray-400/60 hover:rounded-md">
+                                <i class="fa-solid fa-bug w-[50px] text-center"></i>
+                                Báo cáo lỗi
+                            </button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left text-lg h-[40px] hover:bg-gray-400/60 hover:rounded-md">
+                                <i class="fa-solid fa-circle-question w-[50px] text-center"></i>
+                                FAQ
+                            </button>
+                        </li>
+                        <li>
+                            <button class="w-full text-left text-lg h-[40px] hover:bg-gray-400/60 hover:rounded-md">
+                                <i class="fa-solid fa-headset w-[50px] text-center"></i>
+                                Liên hệ
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- cài đặt -->
+        
+        <!-- thông báo -->
+            <div class="mt-36 ml-36 w-[300px] bg-[#121212bf] text-white py-5 rounded-lg">
+                <span class="flex justify-between items-center px-3">
+                    <h1 class="text-2xl font-bold text-center ">Thông báo</h1>
+                    <button class="w-9 h-9 rounded-full hover:bg-gray-400/60 ">
+                        X
+                    </button>
+                </span>
+                <hr class="mb-5 mt-3 border-gray-300">
+                <nav class="px-3">
+                    <ul>
+                        <li class="border-b border-gray-500 pb-5 mt-5">
+                            <h2 class=" flex justify-between items-end w-full mb-1">
+                                <span class="text-2xl font-semibold line-clamp-1 ">
+                                    Tiêu đề
+                                </span>
+                                <span>
+                                    07:00 Am
+                                </span>
+                            </h2>
+                            <p class="line-clamp-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                            </p>
+                            <!-- <a href="#" class="">Xem thêm</a> -->
+                        </li>
+                        <li class="border-b border-gray-500 pb-5 mt-5">
+                            <h2 class=" flex justify-between items-end w-full mb-1">
+                                <span class="text-2xl font-semibold line-clamp-1 ">
+                                    Tiêu đề
+                                </span>
+                                <span>
+                                    07:00 Am
+                                </span>
+                            </h2>
+                            <p class="line-clamp-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                            </p>
+                            <!-- <a href="#" class="">Xem thêm</a> -->
+                        </li>
+                        <li class="border-b border-gray-500 pb-5 mt-5">
+                            <h2 class=" flex justify-between items-end w-full mb-1">
+                                <span class="text-2xl font-semibold line-clamp-1 ">
+                                    Tiêu đề
+                                </span>
+                                <span>
+                                    07:00 Am
+                                </span>
+                            </h2>
+                            <p class="line-clamp-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                            </p>
+                            <!-- <a href="#" class="">Xem thêm</a> -->
+                        </li>
+                    </ul>
+                </nav>
+                <hr class="border-gray-300">
+            </div>  
+        <!-- thông báo -->
+
+        <!-- chủ đề  -->
+            <div class="mt-36 ml-36 w-[300px] h-auto bg-[#121212bf] text-white py-5 rounded-lg">
+                <span class="flex justify-between items-center ml-[13px] mr-[8px]">
+                    <h1 class="text-2xl font-bold text-center ">Chủ đề</h1>
+        
+                    <button class="w-9 h-9 rounded-full hover:bg-gray-400/60 ">
+                        X
+                    </button>
+                </span>
+                <hr class="mb-5 mt-3 border-gray-300">
+                <nav class="px-3">
+                    <ul class="flex justify-between flex-wrap gap-3">
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500	">
+                            🪟
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            💻
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            🌧️
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            🏞️
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            🌊
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500	">
+                            🪟
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            💻
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            🌧️
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            🏞️
+                        </li>
+                        <li class="w-[45px] h-[45px] text-2xl flex justify-center items-center border border-gray-400 rounded-lg cursor-pointer transition duration-200 hover:bg-stone-500">
+                            🌊
+                        </li>
+                    </ul>
+                    <div class="flex gap-2 justify-center mt-2">
+                        <button class="w-[35px] h-[35px] bg-neutral-500 rounded-full active:bg-white/40">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="w-[35px] h-[35px] bg-neutral-500 rounded-full active:bg-white/40">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </nav>
+                <nav class="mt-5">
+                    <ul class="flex flex-col gap-3  ">
+                        <li class="flex flex-col gap-2 px-3 py-3.5 bg-white/30 ">
+                            <span class="flex justify-between items-start">
+                                <div>
+                                    <h1 class="">Rain and windows</h1>
+                                </div>
+                                <div class="flex gap-x-3">
+                                    <div class="w-[37px] h-[37px] cursor-pointer flex justify-center items-center border border-gray-400 rounded-lg">
+                                        <i class="fa-regular fa-heart text-lg"></i>
+                                    </div>
+                                    <div class="w-[37px] h-[37px] cursor-pointer flex justify-center items-center border border-gray-400 rounded-lg">
+                                        <i class="fa-solid fa-list text-lg"></i>
+                                    </div>
+                                </div>
+                            </span>
+                            <span class="flex justify-between items-center">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input id="small-range" type="range" value="50" class="w-[85%] h-1 bg-gray-100 rounded-full appearance-none cursor-pointer range-sm">
+                            </span>
+                        </li>
+                        <li class="flex flex-col gap-2 px-3 py-3.5 bg-white/30">
+                            <span class="flex justify-between items-start">
+                                <div>
+                                    <h1 class="">Wind and windows</h1>
+                                </div>
+                                <div class="flex gap-x-3">
+                                    <div class="w-[37px] h-[37px] cursor-pointer flex justify-center items-center border border-gray-400 rounded-lg">
+                                        <i class="fa-regular fa-heart text-lg"></i>
+                                    </div>
+                                    <div class="w-[37px] h-[37px] cursor-pointer flex justify-center items-center border border-gray-400 rounded-lg">
+                                        <i class="fa-solid fa-list text-lg"></i>
+                                    </div>
+                                </div>
+                            </span>
+                            <span class="flex justify-between items-center">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input id="small-range" type="range" value="0" class="w-[85%] h-1 bg-gray-100 rounded-full appearance-none cursor-pointer range-sm">
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- chủ đề  -->
+
+        <!-- âm thanh -->
+            <div class="mt-36 ml-36 w-[300px] h-[500px] bg-[#121212bf] text-white py-5 rounded-lg overflow-hidden">
+                <span class="flex justify-between items-center ml-[13px] mr-[8px]">
+                    <h1 class="text-2xl font-bold text-center ">Âm thanh</h1>
+        
+                    <button class="w-9 h-9 rounded-full hover:bg-gray-400/60 ">
+                        X
+                    </button>
+                </span>
+                <hr class="mb-5 mt-3 border-gray-300">
+                <nav class="h-[400px]">
+                    <ul class=" flex flex-col gap-3 h-full overflow-y-scroll "> 
+                        <li class="px-3 py-3.5 bg-white/30">
+                            <h1 class="text-lg mb-2">
+                                Rain
+                            </h1>
+                            <span class="flex justify-between items-center ">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input type="range" value="50" class="h-1 appearance-none w-[85%] outline-none cursor-pointer rounded-full">
+                            </span>
+                        </li>
+                        <li class="px-3 py-3.5 bg-white/30">
+                            <h1 class="text-lg mb-2">
+                                laptop
+                            </h1>
+                            <span class="flex justify-between items-center ">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input type="range" value="50" class="h-1 appearance-none w-[85%] outline-none cursor-pointer rounded-full">
+                            </span>
+                        </li>
+                        <li class="px-3 py-3.5 bg-white/30">
+                            <h1 class="text-lg mb-2">
+                                stove
+                            </h1>
+                            <span class="flex justify-between items-center ">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input type="range" value="50" class="h-1 appearance-none w-[85%] outline-none cursor-pointer rounded-full">
+                            </span>
+                        </li>
+                        <li class="px-3 py-3.5 bg-white/30">
+                            <h1 class="text-lg mb-2">
+                                coffe
+                            </h1>
+                            <span class="flex justify-between items-center ">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input type="range" value="50" class="h-1 appearance-none w-[85%] outline-none cursor-pointer rounded-full">
+                            </span>
+                        </li>
+                        <li class="px-3 py-3.5 bg-white/30">
+                            <h1 class="text-lg mb-2">
+                                coffe
+                            </h1>
+                            <span class="flex justify-between items-center ">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input type="range" value="50" class="h-1 appearance-none w-[85%] outline-none cursor-pointer rounded-full">
+                            </span>
+                        </li>
+                        <li class="px-3 py-3.5 bg-white/30">
+                            <h1 class="text-lg mb-2">
+                                coffe
+                            </h1>
+                            <span class="flex justify-between items-center ">
+                                <i class="fa-solid fa-volume-high text-xl"></i>
+                                <input type="range" value="50" class="h-1 appearance-none w-[85%] outline-none cursor-pointer rounded-full">
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- âm thanh -->
+
+        <!-- nhiệm vụ -->
+            <div class="mt-36 ml-36 w-[300px] h-auto bg-[#121212bf] text-white py-5 rounded-lg">
+                <span class="flex justify-between items-center ml-[13px] mr-[8px]">
+                    <h1 class="text-2xl font-bold text-center ">Công việc</h1>
+        
+                    <button class="w-9 h-9 rounded-full hover:bg-gray-400/60 ">
+                        X
+                    </button>
+                </span>
+                <hr class="mb-5 mt-3 border-gray-300">
+                <div class="flex justify-between">
+                    <button class="w-full text-start">
+                        <i class="fa-regular fa-square-plus text-lg mr-5"></i>
+                        Thêm việc cần làm 
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="">
+                            <input type="radio" class="w-5 h-5">
+                            <div>
+                                <h3>Mặt định</h3>
+                                <p>miêu tả / ghi chú công việc</p>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- nhiệm vụ -->
+    </main>
+
+    
+</body>
+</html>
+
+<script>
+
+</script>
